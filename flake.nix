@@ -5,7 +5,7 @@
 
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 
-# install fh
+# install the determinate systems cli `fh`
 nix profile install github:DeterminateSystems/fh
 
 # create a new flake
